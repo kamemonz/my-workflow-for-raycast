@@ -1,8 +1,9 @@
 # my-workflow-for-raycast
 
-raycast用の自分用ワークフロー。raycast extentionで動作。
+Personal workflow Raycast Extension.
 
-## setup
+## Installation
+
 ```
 $ npm install
 $ npm run dev

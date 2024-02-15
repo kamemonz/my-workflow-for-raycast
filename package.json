@@ -14,7 +14,30 @@
       "mode": "view"
     }
   ],
+  "preferences": [
+    {
+      "name": "todist_api_token",
+      "description": "todist api token",
+      "required": true,
+      "identifier": "todoistApiToken",
+      "type": "textfield",
+      "title": "Todoist API Token",
+      "placeholder": "Enter your API token here",
+      "tooltip": "Your API token is used to authenticate requests."
+    },
+    {
+      "name": "todist_project_id",
+      "description": "todist project id",
+      "required": true,
+      "identifier": "todoistProjectId",
+      "type": "textfield",
+      "title": "Todoist Project Id",
+      "placeholder": "Enter your Todoist Project Id here",
+      "tooltip": "Your Todoist Project Id is used to authenticate requests."
+    }
+  ],
   "dependencies": {
+    "@doist/todoist-api-typescript": "^3.0.2",
     "@raycast/api": "^1.67.1"
   },
   "devDependencies": {
